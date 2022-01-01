@@ -9,22 +9,29 @@ From our analysis we can see that all stocks analyzed did worse in 2018 than the
 Our original code held the starting and ending price variables as Double, whereas in the new code they were held in arrays as Single - using less memory and speeding up the subroutine.
 
 Original:
-    'Initialize varialbes for the starting and ending prices
+
+````
     Dim startingPrice As Double
+    
     Dim endingPrice As Double
-
+````
 Refactored:
-    '1b) Create three output arrays
-    Dim tickerVolumes(12) As Long
-    Dim tickerStartingPrices(12) As Single
-    Dim tickerEndingPrices(12) As Single
 
+````
+    Dim tickerVolumes(12) As Long
+    
+    Dim tickerStartingPrices(12) As Single
+    
+    Dim tickerEndingPrices(12) As Single
+````
 Refactoring our code allowed the script to run significantly faster:
 
-2018 .5859 seconds vs .2617 seconds
+**2018**: .5859 seconds vs .2617 seconds
+
 ![image](https://github.com/kchavez05/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG) 
 
-2017 .5703 seconds vs .1797 seconds
+**2017**: .5703 seconds vs .1797 seconds
+
 ![image](https://github.com/kchavez05/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
  
 ## Summary
