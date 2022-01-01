@@ -23,6 +23,7 @@ Refactoring our code allowed the script to run significantly faster:
 
 2018 .5859 seconds vs .2617 seconds
 ![image](https://github.com/kchavez05/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG) 
+
 2017 .5703 seconds vs .1797 seconds
 ![image](https://github.com/kchavez05/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
  
